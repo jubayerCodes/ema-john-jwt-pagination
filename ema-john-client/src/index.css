@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+
+    color: #0E161A;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+
+    color: #2A414F;
+}
+
+.btn {
+    cursor: pointer;
+}

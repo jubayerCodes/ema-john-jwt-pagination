@@ -1,0 +1,50 @@
+.header {
+    margin: auto;
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-container {
+    width: 1480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-profile{
+    display: flex;
+    gap: 10px;
+}
+
+.header-profile h4{
+    color: white;
+}
+
+.header .header-container .header-logo img {
+    width: 140px;
+}
+
+.header .header-container .header-menu .header-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+a.login-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header .header-container .header-menu .header-ul .header-li a, a.login-link{
+    transition: all 0.3s ease;
+}
+
+.header .header-container .header-menu .header-ul .header-li a:hover, a.login-link:hover {
+    color: orange;
+    text-decoration: none;
+}

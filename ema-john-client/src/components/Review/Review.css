@@ -1,0 +1,15 @@
+.review-container{
+    display: grid;
+    width: 1480px;
+    margin: auto;
+    grid-template-columns: 4fr 1fr;
+}
+
+.review-products{
+    padding: 50px 50px 50px 220px;
+    width: 1000px;
+}
+
+.warning-message{
+    text-align: center;
+}
